@@ -8,8 +8,8 @@ function ninjaBabySelector() {
   return $("img[id='baby-ninja']")
 }
 function divSelector() {
-  return $('div class=pics')
+  return $('.pics')
 }
 function firstListItem() {
-return $("ul[id='pic-list'] ul:first-child")
+return $("ul#pic-list li:first-child")
 }
