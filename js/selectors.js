@@ -1,15 +1,15 @@
-paragraphSelector() {
+function paragraphSelector() {
   $('p')
 }
-lastImageSelector() {
+function lastImageSelector() {
   $('img:last')
 }
-ninjaBabySelector() {
+function ninjaBabySelector() {
   $("img[id='baby-ninja']")
 }
-divSelector() {
+function divSelector() {
   $('div class=pics')
 }
-firstListItem() {
+function firstListItem() {
 $("ul[id='pic-list'] ul:first-child")
 }
